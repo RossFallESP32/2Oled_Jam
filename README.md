@@ -2,7 +2,7 @@
 
 This project is a dual-bus RF jamming controller built around the ESP32 platform. It uses two OLED displays to provide a user interface and real-time feedback on RF channel activity across two independent RF24 modules (HSPI and VSPI).
 
-![2OLED Jam Circuit Diagram]([assets/YysXzo9yF6mmdvrqHnS6X.png](https://github.com/RossFallESP32/2Oled_Jam/blob/main/circuit_image.png))
+![2OLED Jam Circuit Diagram](https://github.com/RossFallESP32/2Oled_Jam/blob/main/circuit_image.png)
 
 > View the full circuit simulation on Cirkit Designer:  
 👉 [Open the project in Cirkit Designer](https://app.cirkitdesigner.com/project/64a3d173-33f8-48d8-96f6-68df3df7daf9)
