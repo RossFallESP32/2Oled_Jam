@@ -71,25 +71,12 @@ This project is a dual-bus RF jamming controller built around the ESP32 platform
 
 ---
 
-## 🔧 Build & Upload
-
-Using PlatformIO:
-```bash
 
 
 
----
 
-### ✅ Next Steps
 
-To upload this to GitHub:
-
-1. Save the above content into a file named `README.md` in your project root.
-2. Create a folder named `assets/` and place your circuit image (`YysXzo9yF6mmdvrqHnS6X.png`) inside it.
-3. Run the following Git commands:
-```bash
-git add README.md assets/YysXzo9yF6mmdvrqHnS6X.png
-git commit -m "Add README with usage guide, mode descriptions, and circuit image"
+Add README with usage guide, mode descriptions, and circuit image"
 git push origin main
 
 pio run
