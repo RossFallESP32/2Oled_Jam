@@ -1,16 +1,16 @@
-  // Oled l2c main
-SDA_PIN    21 
-SCL_PIN     22
+  // Oled l2c main   // v1.2
+SDA_PIN    21        SDA_PIN    21   
+SCL_PIN     22       SCL_PIN     22
 
- // Oled l2c 2
-SDA_PIN   18
-SCL_PIN   19
+ // Oled l2c 2     // v1.2
+SDA_PIN   18       SDA_PIN   19
+SCL_PIN   19       SCL_PIN   18
 
-//Button
-UP_PIN      26
-DOWN_PIN    32
-OK_PIN      33
-BACK_PIN    27
+//Button           // v1.2
+UP_PIN      26     UP_PIN  32
+DOWN_PIN    32     DOWN_PIN  26
+OK_PIN      33    OK_PIN  33
+BACK_PIN    27    BACK_PIN   27
 
 // —————— SPI Remap for RF24 ——————
 // HSPI pins (bást HP)
@@ -21,6 +21,6 @@ MOSI_HP_PIN = 13;
  SCK_SP_PIN = 25;
  MISO_SP_PIN = 35;
  MOSI_SP_PIN = 23;
-
- CE=15, CSN=5
-CE=4,  CSN=2
+                           // v1.2
+ CE=15, CSN=5  HSPI      CE= 16, CSN= 15  HSPI
+CE=4,  CSN=2   VSPI      CE= 4,  CSN= 2   VSPI 
